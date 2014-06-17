@@ -1,2 +1,3 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
-puts fruits.index('bananas')
+fruits.insert(1, 'raspberries')
+puts fruits
