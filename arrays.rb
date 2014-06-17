@@ -1,3 +1,5 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
-fruits.insert(1, 'raspberries')
-puts fruits
+fruits.each do |fruit|
+  print fruit + ": "
+  puts fruit.length
+end
