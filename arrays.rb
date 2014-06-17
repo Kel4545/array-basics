@@ -1,5 +1,7 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
 fruits.each do |fruit|
-  print fruit + ": "
-  puts fruit.length
+  if fruit.include?('g')
+    puts fruit
+  end
 end
+
