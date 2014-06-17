@@ -1,2 +1,2 @@
 fruits = ['apples', 'oranges', 'bananas', 'pomegranates', 'grapes']
-puts fruits.length
+puts fruits.index('bananas')
