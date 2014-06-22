@@ -35,3 +35,14 @@ friends_array.each do |friend|
 end
 puts array_1.inspect
 
+friends_array = ["Kelly", "Mark", "Brutus"]
+
+
+nested_array = []
+array_1 = []
+friends_array.each do |friend|
+  length = friend.length
+  array_1.push(friend, length)
+  nested_array.push(array_1)
+end
+puts array_1.inspect
